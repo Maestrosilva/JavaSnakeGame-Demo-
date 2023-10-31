@@ -12,7 +12,6 @@ public class SnakeGame extends JFrame{
         setImage();
         panel.setStartButton(getStartButton());
         panel.setDifficultyButton(getComboCox());
-//        panel.setPlayAgainButton(playAgainButton());
         panel.image(setImage());
         this.setBackground(new Color(192, 178, 178));
         this.add(panel);
@@ -49,15 +48,4 @@ public class SnakeGame extends JFrame{
         this.add(box);
         return box;
     }
-
-//    public JButton playAgainButton(){
-//        playAgainButton = new JButton();
-//        playAgainButton.setBounds(150, 500, 300, 60);
-//        playAgainButton.setVisible(false);
-//        playAgainButton.setText("Play Again");
-//        playAgainButton.addActionListener(this.panel);
-//        playAgainButton.setFont(new Font("Ink Free", Font.BOLD, 35));
-//        this.add(playAgainButton);
-//        return playAgainButton;
-//    }
 }
